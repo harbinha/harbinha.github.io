@@ -7,6 +7,19 @@
   <body>
     <div id="app"></div>
     <foobar></foobar>
+
+    <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase-app.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBbqHCc7ACPedXGXNA2ab3ftEztaF-wu38",
+        authDomain: "fun-foo.firebaseapp.com",
+        databaseURL: "https://fun-foo.firebaseio.com",
+        storageBucket: "",
+        messagingSenderId: "399915898137"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script src="./dist/build.js"></script>
   </body>
 </html>
